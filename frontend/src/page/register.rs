@@ -3,5 +3,5 @@
 use dioxus::prelude::*;
 
 pub fn Register(cx: Scope) -> Element {
-    cx.render(rsx! {"Registering..."})
+    cx.render(rsx! {"Register now!"})
 }

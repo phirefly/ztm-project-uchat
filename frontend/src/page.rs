@@ -1,2 +1,9 @@
 pub mod register;
-// mod register;
+pub use register::Register;
+
+pub use route::*;
+
+// Put routes here
+pub mod route {
+    pub const ACCOUNT_REGISTER: &str = "/account/register";
+}
