@@ -6,7 +6,7 @@ use fermi::use_init_atom_root;
 use crate::{page, prelude};
 
 pub fn App(cx: Scope) -> Element {
-    let more_html = rsx!( h3 { "more things!" } );
+    let _more_html = rsx!( h3 { "more things!" } );
     use_init_atom_root(cx);
     cx.render(rsx! {
         Router {
